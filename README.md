@@ -25,6 +25,10 @@
                             else if(Attrition[Age] <= 40, "30-40",
                             else if(Attrition[Age] <= 50, "40-50",
                             else "50-60"
-                Salary slab=
+                Salary slab = if(attriition[Monthlyincome] <= 5000, "1k-5k",
+                              else if(attrition[Monthlyincome] <= 1000, "5k-10k",
+                              else if(Attrition[Monthlyincome] <= 15000, "10k-15k",
+                              else "Above 15k"
+    ⚪ Step 6 : 
                 
     
