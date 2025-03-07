@@ -14,6 +14,17 @@
 # 📷 Report Preview 
   ![Screenshot 2025-03-07 122554](https://github.com/user-attachments/assets/b1e56052-fd6b-458f-957e-2c534755ed49)
 # 📌 Steps Followed
-    🟢 Step 1 : Load data in Microsoft Power Query.
+    🟢 Step 1 : Load data in Microsoft Power Query Editor.
     🔵 Step 2 : After loading data in power query editor trying to understand the 'Columns quality', 'Columns distribution' and 'Column profile option'.
     🟡 Step 3 : Also since by default, profile will be opened for 1st 1000 rows so you need column profiling based on entire dataset.
+    🟠 Step 4 : After doing above setps clean the dataset like remove null values, duplicate values and giving a appropriate data type to the columns.
+    🔴 Step 5 : Adding the conditional columns are 'Age Group', 'Salary Slab', And 'Attrition Count'.
+                Expressios are:
+                Age Group = if(Attrition[Age] < 20, "Below 20",
+                            else if(Attrition[Age] <= 30, "20-30",
+                            else if(Attrition[Age] <= 40, "30-40",
+                            else if(Attrition[Age] <= 50, "40-50",
+                            else "50-60"
+                Salary slab=
+                
+    
