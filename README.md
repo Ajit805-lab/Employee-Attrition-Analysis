@@ -8,21 +8,34 @@
 
     🛠 Tools Used: Power BI, Excel, Power Query
 # 📂 Project Overview
-    This project provides insights of employee attrition rate as per department wise, salary wise and other informations about employee attrition. This report helps to HR managers make data driven decisions 
-    regarding workforce planning and retention strategies.   
-# 📌 Report Link : https://1drv.ms/u/c/be2c82aa9bfb8a04/ESClV8M3ySxIuR-em9yLLOMB3MNbTzmWOIGEMNTgo2UfjQ?e=1j0TqW
+    This project provides insights of employee attrition rate as per department wise, salary wise and 
+    other informations about employee attrition. This report helps to HR managers make data driven decisions 
+    regarding workforce planning and retention strategies.
+    
+   # 📌 Report Link : https://1drv.ms/u/c/be2c82aa9bfb8a04/ESClV8M3ySxIuR-em9yLLOMB3MNbTzmWOIGEMNTgo2UfjQ?e=1j0TqW
 # 📷 Report Preview 
   ![Screenshot 2025-03-07 122554](https://github.com/user-attachments/assets/b1e56052-fd6b-458f-957e-2c534755ed49)
-# 📌 Steps Followed
 #### 📊 Dataset Information :
     🟢 Source : Kaggle.com
+    
     🔵 Data Type : CSV 
-    🟡 Key features : (Age, Attrition, BusinessTravel, DailyRate, Department, DistanceFromHome, Education, EducationField, EmployeeCount, EmployeeNumber, EnvironmentSatisfaction, Gender, HourlyRate, JobInvolvement, JobLevel, JobRole, JobSatisfaction, MaritalStatus, MonthlyIncome, Salary_Slab, MonthlyRate, NumCompaniesWorked, Over18, OverTime, PercentSalaryHike, PerformanceRating, RelationshipSatisfaction, StandardHours, StockOptionLevel, TotalWorkingYears, TrainingTimesLastYear, WorkLifeBalance, YearsAtCompany, YearsInCurrentRole, YearsSinceLastPromotion, YearsWithCurrManager)
+    
+    🟡 Key features : (Age, Attrition, BusinessTravel, DailyRate, Department, DistanceFromHome, Education,
+     EducationField, EmployeeCount, EmployeeNumber, EnvironmentSatisfaction, Gender, HourlyRate, JobInvolvement, JobLevel,
+     JobRole, JobSatisfaction, MaritalStatus, MonthlyIncome, Salary_Slab, MonthlyRate, NumCompaniesWorked, Over18, OverTime, 
+     PercentSalaryHike, PerformanceRating, RelationshipSatisfaction, StandardHours, StockOptionLevel, TotalWorkingYears, TrainingTimesLastYear, 
+     WorkLifeBalance, YearsAtCompany, YearsInCurrentRole, YearsSinceLastPromotion, YearsWithCurrManager)
+    
+# 📌 Steps Followed
 #### 🛠️ Data Transformation & ETL process :
     🟢 Step 1 : Load data in Microsoft Power Query Editor.
+    
     🔵 Step 2 : After loading data in power query editor trying to understand the 'Columns quality', 'Columns distribution' and 'Column profile option'.
+    
     🟡 Step 3 : Also since by default, profile will be opened for 1st 1000 rows so you need column profiling based on entire dataset.
+    
     🟠 Step 4 : After doing above setps clean the dataset like remove null values, duplicate values and giving a appropriate data type to the columns.
+    
     🔴 Step 5 : Adding the conditional columns are 'Age Group', 'Salary Slab', And 'Attrition Count'.
                 Expressios are:
                 Age Group = if(Attrition[Age] < 20, "Below 20",
@@ -30,12 +43,14 @@
                             else if(Attrition[Age] <= 40, "30-40",
                             else if(Attrition[Age] <= 50, "40-50",
                             else "50-60"
+                            
                 Salary slab = if(attriition[Monthlyincome] <= 5000, "1k-5k",
                               else if(attrition[Monthlyincome] <= 1000, "5k-10k",
                               else if(Attrition[Monthlyincome] <= 15000, "10k-15k",
                               else "Above 15k"
 #### ⚙️ Technical implementation :                      
     ⚪ Step 1 : After doing all these things then i load this data into Power BI Desktop for creating reports
+    
     🟡 Step 2 : in Power BI Desktop some measures are created for reports like count of employee, count of attrition, attrition rate, average age of employee etc.
 Following some Dax expression was written:
 
@@ -63,24 +78,29 @@ A card visual used to represent the attrition rate.
     Total number of attrition : 237  
         🔸 Female = 87 (37%)
         🔸 Male = 150 (63%)
+        
     Attrition count on monthly income :
        🔸 1k-5k = 163
        🔸 5k-10k = 49
        🔸 10k-15k = 20
        🔸 Above 15k = 05
+       
     Attrition count on Age group : 
        🔸Below 20 = 10
        🔸20-30 = 90
        🔸30-40 = 85
        🔸40-50 = 34
        🔸50-60 = 18
+       
     Attrition count on department : 237
        🔸 Human resources = 92 (38%)
        🔸 Research and devlopment = 133 (56%)
        🔸 Sale = 12 (6%)
+       
     Average Monthly Income : 6.5k
         🔸 Female = 6.69k 
         🔸 Male = 6.38k
+        
     Average Monthly Rate : 14.3k
         🔸 Female = 14.6k
         🔸 Male = 14.0k
