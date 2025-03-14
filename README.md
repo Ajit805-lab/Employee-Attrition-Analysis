@@ -110,7 +110,7 @@ A card visual used to represent the attrition rate.
         for data cleaning, DAX for advance calculation and interactive visuals.
 
         As per my analysis the key factor of employees attrition is salary. This isue raise for market competitation, Performance based and  
-        sometimes the enviorment company also effect to the employee attrition.
+        sometimes the enviorment also effect to the employee attrition.
         Some ratings are given by the employees below :
 ![Screenshot 2025-03-08 125223](https://github.com/user-attachments/assets/cf462034-1074-4d98-9a0a-f730cf9f06a4)
 
