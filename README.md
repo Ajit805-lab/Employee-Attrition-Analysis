@@ -1,4 +1,12 @@
-# 📊 Employee-Attrition-Analysis
+# 📌 Employee-Attrition-Analysis 📢✨
+## 📖 1. Introduction
+
+        Employee attrition refers to the gradual reduction of a workforce due to employees leaving an organization over time. 
+        
+        It can occur due to voluntary resignations, retirements, layoffs, or involuntary terminations. This project analyses the 
+        
+        key factors of employee attrition such as salary, job-statisfaction, enviorment of company etc.
+
 # 📌 Project Details
     📛 Project Name: Employee Attrition
 
