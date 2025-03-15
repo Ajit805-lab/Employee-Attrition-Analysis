@@ -6,63 +6,137 @@
         It can occur due to voluntary resignations, retirements, layoffs, or involuntary terminations. This project analyses the 
         
         key factors of employee attrition such as salary, job-statisfaction, enviorment of company etc.
+        
 ## 🎯 2. Objectives 
 
         ✅ What the causes of employee attrition
 
-# 📌 Project Details
-    📛 Project Name: Employee Attrition
+## 📌 3. Project Details
 
-    👨‍💻 Author: Ajit Kumar Samal
+        📛 Project Name: Employee Attrition
+        
+        👨‍💻 Author: Ajit Kumar Samal
+        
+        📅 Date: 06-03-2025
 
-    📅 Date: 06-03-2025
+        🛠 Tools Used: Power BI, Excel, Power Query
+        
+## 📌 4. Report Link :
+        
+        https://1drv.ms/u/c/be2c82aa9bfb8a04/ESClV8M3ySxIuR-em9yLLOMB3MNbTzmWOIGEMNTgo2UfjQ?e=1j0TqW
+        
+## 📷 Report Preview 
 
-    🛠 Tools Used: Power BI, Excel, Power Query
-# 📂 Project Overview
-    This project provides insights of employee attrition rate as per department wise, salary wise and 
-    other informations about employee attrition. This report helps to HR managers make data driven decisions 
-    regarding workforce planning and retention strategies.
-    
-   # 📌 Report Link : https://1drv.ms/u/c/be2c82aa9bfb8a04/ESClV8M3ySxIuR-em9yLLOMB3MNbTzmWOIGEMNTgo2UfjQ?e=1j0TqW
-# 📷 Report Preview 
   ![Screenshot 2025-03-07 122554](https://github.com/user-attachments/assets/b1e56052-fd6b-458f-957e-2c534755ed49)
-#### 📊 Dataset Information :
+  
+## 📊 5. Dataset Information :
+
     🟢 Source : Kaggle.com
     
     🔵 Data Type : CSV 
     
-    🟡 Key features : (Age, Attrition, BusinessTravel, DailyRate, Department, DistanceFromHome, Education,
-     EducationField, EmployeeCount, EmployeeNumber, EnvironmentSatisfaction, Gender, HourlyRate, JobInvolvement, JobLevel,
-     JobRole, JobSatisfaction, MaritalStatus, MonthlyIncome, Salary_Slab, MonthlyRate, NumCompaniesWorked, Over18, OverTime, 
-     PercentSalaryHike, PerformanceRating, RelationshipSatisfaction, StandardHours, StockOptionLevel, TotalWorkingYears, TrainingTimesLastYear, 
-     WorkLifeBalance, YearsAtCompany, YearsInCurrentRole, YearsSinceLastPromotion, YearsWithCurrManager)
+    🟡 Key features : 
     
-# 📌 Steps Followed
-#### 🛠️ Data Transformation & ETL process :
-    🟢 Step 1 : Load data in Microsoft Power Query Editor.
-    
-    🔵 Step 2 : After loading data in power query editor trying to understand the 'Columns quality', 'Columns distribution' and 'Column profile option'.
-    
-    🟡 Step 3 : Also since by default, profile will be opened for 1st 1000 rows so you need column profiling based on entire dataset.
-    
-    🟠 Step 4 : After doing above setps clean the dataset like remove null values, duplicate values and giving a appropriate data type to the columns.
-    
-    🔴 Step 5 : Adding the conditional columns are 'Age Group', 'Salary Slab', And 'Attrition Count'.
-                Expressios are:
-                Age Group = if(Attrition[Age] < 20, "Below 20",
-                            else if(Attrition[Age] <= 30, "20-30",
-                            else if(Attrition[Age] <= 40, "30-40",
-                            else if(Attrition[Age] <= 50, "40-50",
-                            else "50-60"))))
-                            
-                Salary slab = if(attriition[Monthlyincome] <= 5000, "1k-5k",
-                              else if(attrition[Monthlyincome] <= 1000, "5k-10k",
-                              else if(Attrition[Monthlyincome] <= 15000, "10k-15k",
-                              else "Above 15k")))
-#### ⚙️ Technical implementation :                      
+        • 🎂 Age – Employee's age 
+            
+        • ❌ Attrition – Employee turnover status 
+        
+        • ✈️ BusinessTravel – Frequency of business travel
+        
+        • 💰 DailyRate – Daily earnings of the employee  
+        
+        • 🏢 Department – Department of the employee 
+        
+        • 📍 DistanceFromHome – Distance from home to workplace 
+        
+        • 🎓 Education – Education level  
+        
+        • 📚 EducationField – Field of study  
+        
+        • 👥 EmployeeCount – Number of employees  
+        
+        • 🆔 EmployeeNumber – Unique employee ID  
+        
+        • 🌿 EnvironmentSatisfaction – Workplace environment satisfaction 
+        
+        • 🚻 Gender – Gender of the employee  
+        
+        • ⏳ HourlyRate – Hourly wage  
+        
+        • 💼 JobInvolvement – Level of job involvement  
+        
+        • 📊 JobLevel – Job position level 
+        
+        • 👨‍💻 JobRole – Job designation  
+        
+        • 😊 JobSatisfaction – Satisfaction with the job  
+        
+        • 💍 MaritalStatus – Marital status of the employee  
+        
+        • 💵 MonthlyIncome – Monthly salary  
+        
+        • 🏷️ Salary_Slab – Salary category  
+        
+        • 💳 MonthlyRate – Monthly salary rate 
+        
+        • 🏢 NumCompaniesWorked – Number of previous companies worked at  
+        
+        • 🔞 Over18 – Employee is over 18 or not  
+        
+        • ⏰ OverTime – Overtime status 
+        
+        • 📈 PercentSalaryHike – Salary increment percentage  
+        
+        • ⭐ PerformanceRating – Employee performance rating  
+        
+        • 💑 RelationshipSatisfaction – Satisfaction with workplace relationships  
+        
+        • ⏳ StandardHours – Standard working hours  
+        
+        • 📦 StockOptionLevel – Stock option level 
+        
+        • 🔄 TotalWorkingYears – Total years of work experience  
+        
+        • 🎯 TrainingTimesLastYear – Training sessions attended last year  
+        
+        • ⚖️ WorkLifeBalance – Balance between work and personal life  
+        
+        • 🏢 YearsAtCompany – Years spent in the company  
+        
+        • 🔄 YearsInCurrentRole – Years in the current role  
+        
+        • ⏳ YearsSinceLastPromotion – Time since the last promotion 
+        
+        • 👨‍💼 YearsWithCurrManager – Years working with the current manager  
+
+## 🛠️ 6. Data Transformation & ETL process :
+
+            🟢 Step 1 : Load data in Microsoft Power Query Editor.
+            
+            🔵 Step 2 : After loading data in power query editor trying to understand the 'Columns quality', 'Columns distribution' and 'Column profile option'.
+            
+            🟡 Step 3 : Also since by default, profile will be opened for 1st 1000 rows so you need column profiling based on entire dataset.
+            
+            🟠 Step 4 : After doing above setps clean the dataset like remove null values, duplicate values and giving a appropriate data type to the columns.
+            
+            🔴 Step 5 : Adding the conditional columns are 'Age Group', 'Salary Slab', And 'Attrition Count'.
+                        Expressios are:
+                        Age Group = if(Attrition[Age] < 20, "Below 20",
+                                    else if(Attrition[Age] <= 30, "20-30",
+                                    else if(Attrition[Age] <= 40, "30-40",
+                                    else if(Attrition[Age] <= 50, "40-50",
+                                    else "50-60"))))
+                                    
+                        Salary slab = if(attriition[Monthlyincome] <= 5000, "1k-5k",
+                                      else if(attrition[Monthlyincome] <= 1000, "5k-10k",
+                                      else if(Attrition[Monthlyincome] <= 15000, "10k-15k",
+                                      else "Above 15k")))
+## ⚙️ 7. Technical implementation :  
+
     ⚪ Step 1 : After doing all these things then i load this data into Power BI Desktop for creating reports
     
     🟡 Step 2 : in Power BI Desktop some measures are created for reports like count of employee, count of attrition, attrition rate, average age of employee etc.
+    
 Following some Dax expression was written:
 
 🔸Count of employee = count(Attrition[ID])
@@ -109,7 +183,7 @@ A card visual to represent the average monthly-income.
 ![Screenshot 2025-03-14 102316](https://github.com/user-attachments/assets/79c48beb-c3ed-48b9-8d75-4ca03341273d)
 
 
-# 📊 Dashboard Features & Insights :
+## 📊 8. Dashboard Features & Insights :
     Total number of attrition : 237  
         🔸 Female = 87 (37%)
         🔸 Male = 150 (63%)
@@ -139,7 +213,7 @@ A card visual to represent the average monthly-income.
     Average Monthly Rate : 14.3k
         🔸 Female = 14.6k
         🔸 Male = 14.0k
-# 🔚 Conclusion : 
+## 🔚 9. Conclusion : 
         In this project i successfully analysed the dataset using Power BI, transforming raw data into meaningful insights.
         The dashboards provides a clear visualisation of key matrics, enabling better descision making. By using power query-
         for data cleaning, DAX for advance calculation and interactive visuals.
@@ -147,6 +221,7 @@ A card visual to represent the average monthly-income.
         As per my analysis the key factor of employees attrition is salary. This isue raise for market competitation, Performance based and  
         sometimes the enviorment also effect to the employee attrition.
         Some ratings are given by the employees below :
+        
 ![Screenshot 2025-03-08 125223](https://github.com/user-attachments/assets/cf462034-1074-4d98-9a0a-f730cf9f06a4)
 
 # 📊 How to use the report :
