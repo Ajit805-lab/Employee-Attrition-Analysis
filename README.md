@@ -139,49 +139,48 @@
     
 Following some Dax expression was written:
 
-🔸Count of employee = count(Attrition[ID])
-
-A card visual used to represent the count of employees.
+        🔸Count of employee = count(Attrition[ID])
+        
+        A card visual used to represent the count of employees.
  
  ![Screenshot 2025-03-08 110358](https://github.com/user-attachments/assets/ceeee443-7ec2-4959-9402-89b9fdb98055)
- 
-🔸 Count of Attrition = count(Attrition[Attrition])      
-
- A card visual used to represent count of employee attrition.
+         
+        🔸 Count of Attrition = count(Attrition[Attrition])      
+        
+         A card visual used to represent count of employee attrition.
  
  ![Screenshot 2025-03-08 110656](https://github.com/user-attachments/assets/7285b55b-04b1-47ed-994e-65630d1f3a8d)
 
-🔸 Attrition rate = count(Attrition[Attrition])/count(Attrition[ID])*100
-
-A card visual used to represent the attrition rate.
+        🔸 Attrition rate = count(Attrition[Attrition])/count(Attrition[ID])*100
+        
+         A card visual used to represent the attrition rate.
 
 ![Screenshot 2025-03-08 110630](https://github.com/user-attachments/assets/65b75794-cf51-4a5b-b49d-d811b7338e6c)
 ℹ️ Note-[The name of table and one of the column of table is same "Attrition"]
 
-🔸 Average age of employees = Average(Attrition[Age])
-
-A card visual to represent the average age.
+        🔸 Average age of employees = Average(Attrition[Age])
+        
+         A card visual to represent the average age.
 
 ![Screenshot 2025-03-14 102215](https://github.com/user-attachments/assets/a98b4edb-073a-45c3-a588-e63f9269a711)
 
-🔸 Average monthly-rate of employees = Average(Attrition[MonthlyRate])
-
-A card visual to represent the average monthly-rate.
+        🔸 Average monthly-rate of employees = Average(Attrition[MonthlyRate])
+        
+         A card visual to represent the average monthly-rate.
 
 ![Screenshot 2025-03-14 102227](https://github.com/user-attachments/assets/d6fbb37d-d90f-4527-903f-447da772bd6d)
 
-🔸 Average monthly-income of employees = Average(Attrition[MonthlyIncome])
-
-A card visual to represent the average monthly-income.
+        🔸 Average monthly-income of employees = Average(Attrition[MonthlyIncome])
+        
+         A card visual to represent the average monthly-income.
 
 ![Screenshot 2025-03-14 102322](https://github.com/user-attachments/assets/f2d431b0-f9c2-46c7-aeaf-f984a7df8cdd)
 
-🔸 Average years at company of employees = Average(Attrition[YearsAtCompany])
-
-A card visual to represent the average monthly-income.
+        🔸 Average years at company of employees = Average(Attrition[YearsAtCompany])
+        
+         A card visual to represent the average monthly-income.
 
 ![Screenshot 2025-03-14 102316](https://github.com/user-attachments/assets/79c48beb-c3ed-48b9-8d75-4ca03341273d)
-
 
 ## 📊 8. Dashboard Features & Insights :
     Total number of attrition : 237  
@@ -213,6 +212,7 @@ A card visual to represent the average monthly-income.
     Average Monthly Rate : 14.3k
         🔸 Female = 14.6k
         🔸 Male = 14.0k
+        
 ## 🔚 9. Conclusion : 
         In this project i successfully analysed the dataset using Power BI, transforming raw data into meaningful insights.
         The dashboards provides a clear visualisation of key matrics, enabling better descision making. By using power query-
@@ -224,10 +224,11 @@ A card visual to represent the average monthly-income.
         
 ![Screenshot 2025-03-08 125223](https://github.com/user-attachments/assets/cf462034-1074-4d98-9a0a-f730cf9f06a4)
 
-# 📊 How to use the report :
+## 📊 How to use the report :
         🔸 Download the .pbix file by given link.
         🔸 Open it in Power BI Desktop
-### 📞 Conatct Information : 
+        
+## 📞 Conatct Information : 
         📧 Email: ajitkumarofficial79@gmail.com
         📱 Phone: 7978992711
 ## 🎉 Thank You!  
