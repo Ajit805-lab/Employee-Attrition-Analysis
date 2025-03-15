@@ -6,6 +6,9 @@
         It can occur due to voluntary resignations, retirements, layoffs, or involuntary terminations. This project analyses the 
         
         key factors of employee attrition such as salary, job-statisfaction, enviorment of company etc.
+## 🎯 2. Objectives 
+
+        ✅ What the causes of employee attrition
 
 # 📌 Project Details
     📛 Project Name: Employee Attrition
