@@ -182,6 +182,10 @@ Following some Dax expression was written:
 
 ![Screenshot 2025-04-17 133836](https://github.com/user-attachments/assets/0ee841e3-c1c1-4a62-a49d-848aa0be7d77)
 
+        🔸 Attrition_Count by Education
+        
+![Screenshot 2025-04-17 134319](https://github.com/user-attachments/assets/437df79e-caa0-476c-bf8f-16f5c2772843)
+
 ## 📊 8. Dashboard Features & Insights :
     Total number of attrition : 237  
         🔸 Female = 87 (37%)
