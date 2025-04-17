@@ -143,44 +143,44 @@ Following some Dax expression was written:
         
         A card visual used to represent the count of employees.
  
- ![Screenshot 2025-03-08 110358](https://github.com/user-attachments/assets/ceeee443-7ec2-4959-9402-89b9fdb98055)
+ ![Screenshot 2025-04-17 132802](https://github.com/user-attachments/assets/70208dde-9696-4ab6-81f6-b42425e6dfca)
          
         🔸 Count of Attrition = count(Attrition[Attrition])      
         
          A card visual used to represent count of employee attrition.
  
- ![Screenshot 2025-03-08 110656](https://github.com/user-attachments/assets/7285b55b-04b1-47ed-994e-65630d1f3a8d)
+ ![Screenshot 2025-04-17 133431](https://github.com/user-attachments/assets/52332cce-1087-4230-8f85-317aceb28394)
 
         🔸 Attrition rate = count(Attrition[Attrition])/count(Attrition[ID])*100
         
          A card visual used to represent the attrition rate.
 
-![Screenshot 2025-03-08 110630](https://github.com/user-attachments/assets/65b75794-cf51-4a5b-b49d-d811b7338e6c)
+![Screenshot 2025-04-17 133503](https://github.com/user-attachments/assets/3c03632e-f335-4338-9c71-a8441de85d61)
 ℹ️ Note-[The name of table and one of the column of table is same "Attrition"]
 
         🔸 Average age of employees = Average(Attrition[Age])
         
          A card visual to represent the average age.
 
-![Screenshot 2025-03-14 102215](https://github.com/user-attachments/assets/a98b4edb-073a-45c3-a588-e63f9269a711)
+![Screenshot 2025-04-17 133539](https://github.com/user-attachments/assets/53f6f020-11f8-4b57-a64e-57ce220a177c)
 
         🔸 Average monthly-rate of employees = Average(Attrition[MonthlyRate])
         
          A card visual to represent the average monthly-rate.
 
-![Screenshot 2025-03-14 102227](https://github.com/user-attachments/assets/d6fbb37d-d90f-4527-903f-447da772bd6d)
+![Screenshot 2025-04-17 133639](https://github.com/user-attachments/assets/5022828b-35c3-43e7-84e8-9003b9d2bb9d)
 
         🔸 Average monthly-income of employees = Average(Attrition[MonthlyIncome])
         
          A card visual to represent the average monthly-income.
 
-![Screenshot 2025-03-14 102322](https://github.com/user-attachments/assets/f2d431b0-f9c2-46c7-aeaf-f984a7df8cdd)
+![Screenshot 2025-04-17 133750](https://github.com/user-attachments/assets/e45ef642-1dcd-4b13-b5de-e2d494fd2e8a)
 
         🔸 Average years at company of employees = Average(Attrition[YearsAtCompany])
         
          A card visual to represent the average monthly-income.
 
-![Screenshot 2025-03-14 102316](https://github.com/user-attachments/assets/79c48beb-c3ed-48b9-8d75-4ca03341273d)
+![Screenshot 2025-04-17 133836](https://github.com/user-attachments/assets/0ee841e3-c1c1-4a62-a49d-848aa0be7d77)
 
 ## 📊 8. Dashboard Features & Insights :
     Total number of attrition : 237  
