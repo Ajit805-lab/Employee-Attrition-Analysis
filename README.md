@@ -186,6 +186,10 @@ Following some Dax expression was written:
         
 ![Screenshot 2025-04-17 134319](https://github.com/user-attachments/assets/437df79e-caa0-476c-bf8f-16f5c2772843)
 
+        🔸Attrition_Count by Income 📊 (Column Chart)
+        
+![Screenshot 2025-04-17 134428](https://github.com/user-attachments/assets/cfb3bc3b-5ec8-4025-aa1b-249f5c632211)
+
 ## 📊 8. Dashboard Features & Insights :
     Total number of attrition : 237  
         🔸 Female = 87 (37%)
